@@ -1,0 +1,26 @@
+{
+  "name": "csr",
+  "version": "0.0.1",
+  "description": "Read csr file",
+  "main": "index.js",
+  "dependencies": {
+    "bindings": "~1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tellnes/node-csr.git"
+  },
+  "author": "Christian Tellnes",
+  "license": "MIT",
+  "gypfile": true,
+  "keywords": [
+    "csr",
+    "openssl",
+    "subject"
+  ]
+}
